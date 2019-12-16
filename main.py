@@ -9,10 +9,10 @@ import tweepy  # twitter api
 from pyshorturl import Googl, ShortenerServiceError
 
 # twitter consumer and access keys
-consumer_key = 'iPepU2A4n4RsbUBPKTAjKDrw0'
-consumer_secret = 'PqnKGq9VaUxTXNZQKnAByy2OPVz7Yyka2fo3I8EYyBgj2oxmK9'
-access_token = '1641948902-AWZpgOUe9WwOAxO77hIuTaLu6A6Xki7hD5x1wII'
-access_token_secret = 'Yku8UDb3hYOBh81RKUF3BLZpLrbxS8QoKArwMGofR7LqM'
+consumer_key = '***************'
+consumer_secret = ''***************'
+access_token = ''***************-'***************'
+access_token_secret = ''***************'
 
 # authentication token
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
@@ -29,7 +29,7 @@ print(user.name)
 def setup_connection_reddit(eyebleach):
     print("sans-sad setting up connection with reddit")
     #using my personal account
-    ram = praw.Reddit(client_id='uMdHBqIn8_Nf7Q', client_secret='reH4OXOpAGcIgQfnfVK19b1aw9s',
+    ram = praw.Reddit(client_id=''***************', client_secret=''***************',
                       password='****', username='*****', user_agent='my_bot')
     eyebleach = ram.subreddit("eyebleach")
     # basically anytime you see an example with something like get_x, remove the get_ part.
