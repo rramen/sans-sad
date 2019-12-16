@@ -30,7 +30,7 @@ def setup_connection_reddit(eyebleach):
     print("sans-sad setting up connection with reddit")
     #using my personal account
     ram = praw.Reddit(client_id='uMdHBqIn8_Nf7Q', client_secret='reH4OXOpAGcIgQfnfVK19b1aw9s',
-                      password='Dallas99', username='lolpoliticalparties', user_agent='my_bot')
+                      password='****', username='*****', user_agent='my_bot')
     eyebleach = ram.subreddit("eyebleach")
     # basically anytime you see an example with something like get_x, remove the get_ part.
     return eyebleach
